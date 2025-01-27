@@ -35,7 +35,6 @@ public class BMICalculatorWithTryCatch {
                 System.out.println("Invalid input. Please enter a valid numeric value for weight and height.");
                 input.nextLine();
             }
-
         }
 
         double heightInMeter = ((heightInFeet * 12) + heightInInch) * 0.0254;
