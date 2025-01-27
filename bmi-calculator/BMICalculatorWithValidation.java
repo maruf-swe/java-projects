@@ -3,7 +3,6 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class BMICalculatorWithValidation {
-
     public static String categorizeBMI(double bmi) {
         if (bmi < 18.5) {
             return "UnderWeight";
